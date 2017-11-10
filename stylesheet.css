@@ -1,0 +1,55 @@
+body {
+	font-family: Arial;
+	font-size: 15px;
+}
+
+
+.navcontainer {
+	position: fixed;
+	background-color: gray;
+	height: 50px;
+	width: 100%;
+}
+
+li.navcontainer {
+	color: purple;
+	text-align: horizontal;
+}
+
+p {
+	text-align: left;
+}
+
+#submit-search-term {
+	background-image: url(magnifying-glass.png);
+	background-size:;
+	width:;
+	height:;
+}
+
+.browse-search-results {
+	text-align: horizontal;
+}
+
+.job-listings {
+	color: gray;
+}
+
+.job-title {
+	font-size: 17px;
+	color: blue;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+li {
+	list-style-type: none;
+}
+
+li.browseresults {
+	border: 2px gray solid;
+	border-radius: 1px;
+}
