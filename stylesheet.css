@@ -4,20 +4,37 @@ body {
 }
 
 
-.navcontainer {
+nav {
 	position: fixed;
 	background-color: gray;
 	height: 50px;
 	width: 100%;
+	text-align: right;
 }
 
-li.navcontainer {
-	color: purple;
+
+ul.navbar {
+	display: block;
+	float: right;
+	width: 30%;
+	height: 50px;
+	padding: 20px;
+	margin: 0px;
+	border: 0px;
 	text-align: horizontal;
+	color: purple;
 }
 
-p {
+p.navbar {
 	text-align: left;
+	display: block;
+	position: absolute;
+	left: 10px;
+	width: 30%;
+	height: 50px;
+	padding: 20px;
+	margin: 0px;
+	border: 0px;
 }
 
 #submit-search-term {
@@ -39,10 +56,7 @@ p {
 	font-size: 17px;
 	color: blue;
 	font-weight: bold;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 10px;
 }
 
 li {
@@ -52,4 +66,5 @@ li {
 li.browseresults {
 	border: 2px gray solid;
 	border-radius: 1px;
+	padding: 10px;
 }
